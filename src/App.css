@@ -2,6 +2,23 @@
   margin: 0;
   padding: auto;
 }
+.div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socmed{
+  margin-top: 500px;
+}
+.ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 500px;
+  gap: 20px;
+}
+
+
 
 .Navbar{
   display: flex;

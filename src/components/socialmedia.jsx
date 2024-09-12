@@ -1,17 +1,15 @@
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React from 'react'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 function SocialMedia() {
   return (
-    <div>
-      <ul>
-        <li><a href="https://github.com/https://github.com/kyuremmmmz?tab=overview&from=2024-05-01&to=2024-05-25">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/theodorewinters/">LinkedIn</a></li>
-        <li><a href="https://www.instagram.com/theodorewinters/">Instagram</a></li>
-        <li><a href="https://www.facebook.com/https://www.facebook.com/kiri.shiro.1/">Facebook</a></li>
-        <li><a href="https://www.youtube.com/https://discord.com/channels/@me/UCCQ82j424645tA3a48yJ7uQ">Discord</a><FontAwesomeIcon icon={faCoffee} /></li>
-        
-      </ul>
+      <div className='div'>
+    <h1 className='socmed'>SocialMedia</h1>
+    <ul className='ul'>
+        <li className='socialMediaLinks'><a href="https://github.com/kyuremmmmz"><i className='fab fa-github'></i></a></li>
+        <li className='socialMediaLinks'><a href="https://www.linkedin.com/in/theodorewinters/"><i className='fab fa-linkedin'></i></a></li>
+        <li className='socialMediaLinks'><a href="https://www.instagram.com/kyuremhayashi/"><i className='fab fa-instagram'></i></a></li>
+        <li className='socialMediaLinks'><a href="https://www.facebook.com/kiri.shiro.1"><i className='fab fa-facebook-f'></i></a></li>
+        <li className='socialMediaLinks'><a href="https://discord.com/channels/@me"><i className='fab fa-discord'></i></a></li>
+    </ul>
     </div>
   )
 }
