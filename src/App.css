@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: auto;
+}
+
+.Navbar{
+  display: flex;
+  width: auto;
+  background-color: #6e6c6c;
+  color: #fff;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+}
+.h1{
+  font-size: 50px;
+  margin-bottom: 100px;
+  font-weight: bold;
+  color: #6e6c6c;
+  margin-top: 350px;
+  text-align: center;
+  align-self: center;
+}
+
+.Christian{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+li{
+  width: 100px;
+  list-style-type: none;
+  text-align: center;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+
+a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  text-decoration: none !important;
+  color: #fff;
+
+}
+
+.Navbar li:hover{
+  cursor: pointer;
+  text-align: center;
+  border-radius: 30px;
+}
